@@ -27,9 +27,9 @@ STATIC_DIR = os.path.join(BASE_DIR, 'static')
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["careerguidance7.herokuapp.com"]
+ALLOWED_HOSTS = ["cgs.pythonanywhere.com", "127.0.0.1"]
 
 
 # Application definition
